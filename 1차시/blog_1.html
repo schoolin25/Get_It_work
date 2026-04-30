@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>인라인 vs 블록 요소 예시</title>
+  <style>
+    span {
+      background-color: yellow;
+    }
+    div {
+      background-color: lightblue;
+      margin-top: 10px;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <p>다음은 <span>인라인 요소(span)</span>를 사용한 예시입니다. 텍스트 사이에 노란색 배경이 적용됩니다.</p>
+  
+  <p>다음은 <div>블록 요소(div)로 감싼 문장입니다. 이 영역은 줄 바꿈이 자동으로 되며, 배경색이 파란색입니다.</div></p>
+
+  <p>한 줄에 여러 <span>span</span> 요소가 나란히 있을 수 있습니다.</p>
+
+  <div>div 요소는 기본적으로 줄 바꿈이 되어 독립적으로 세로로 쌓입니다.</div>
+  <div>또 다른 div 요소도 줄 바꿈 되고 아래에 위치합니다.</div>
+</body>
+</html>
